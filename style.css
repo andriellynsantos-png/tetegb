@@ -1,13 +1,19 @@
 body{
-    background-color: #f735ed  ;
+    background-color: #f735ed;
+    font-family: Arial, sans-serif;
     text-align: center;
 }
-h1{
-    color: rgb(255, 12, 162);
+
+h1 { 
+    color: rgb(255, 255, 255);
 }
+
 p{
     font-size: large;
 }
+
 button{
-    color: rgb(0, 0, 0);
+    background-color: rgb(149, 89, 126);
+    color: rgb(255, 252, 252);
+    padding: 10px;
 }
