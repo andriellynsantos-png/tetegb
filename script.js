@@ -1,11 +1,9 @@
 function revelarMensagem() {
-    document.getElementById("mensagem").innerText =
-        "Olá, você alterou a mensagem chamando uma função JS";
+    document.getElementById("Mensagem").innerHTML = "Olá, você alterou a mensagem chamado uma função JS";
 }
 
 function mostrarNome() {
     let nome = document.getElementById("nomeUsuario").value;
 
-    document.getElementById("resultadoNome").innerText =
-        "Bem-vindo, " + nome + "!";
+    document.getElementById("resultadoNome").innerText = "Bem-vindo(a), " + nome + "!";
 }
